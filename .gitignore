@@ -1,0 +1,42 @@
+# Visual Studio
+.vs/
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.sln
+*.suo
+*.opensdf
+*.sdf
+ipch/
+*.db
+
+# CMake
+build/
+out/
+cmake-build-*/
+CMakeCache.txt
+CMakeFiles/
+*.cmake
+!CMakeLists.txt
+install_manifest.txt
+compile_commands.json
+Makefile
+
+# Executables
+*.exe
+*.dll
+*.lib
+*.a
+*.so
+*.dylib
+
+# Debug files
+*.pdb
+*.idb
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
