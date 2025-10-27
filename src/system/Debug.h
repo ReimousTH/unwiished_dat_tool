@@ -1,8 +1,8 @@
 #pragma once
-#include <Windows.h>
 #include <cstdarg>
 #include <cstdio>
 #include <cstdint>
+// Remove Windows.h include
 
 #define DEBUG_LEVEL LevelH::LevelH_Low
 
@@ -17,6 +17,6 @@ public:
     static void Info(LevelH levelH, uint16_t color, const char* format, ...);
 
 private:
-    static void Message(const char* prefix, UINT16 attribute, const char* format, va_list args);
-    static UINT16 GetCurrentAttribute();
+    static void Message(const char* prefix, uint16_t attribute, const char* format, va_list args);
+    // Remove GetCurrentAttribute()
 };
